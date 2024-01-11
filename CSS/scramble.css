@@ -1,0 +1,21 @@
+@font-face {
+  font-family: Nokky07;
+  src: url(../assets/fonts/Inter-Bold.ttf);
+}
+
+body {
+  display: flex;
+}
+
+a.cipher {
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+  display: flex;
+  margin-top: 480px;
+  font-family: Nokky07;
+  font-size: 62px;
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
+}

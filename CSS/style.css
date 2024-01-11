@@ -1,0 +1,212 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  font-family: Nokky07;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: Nokky07;
+  src: url(../assets/fonts/Inter-Bold.ttf);
+}
+
+.heading {
+  font-family: Nokky07;
+  font-size: 125px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 200px;
+  top: 50%;
+  right: -50%;
+}
+
+.pfp {
+  position: absolute;
+  z-index: 3;
+  left: 75%;
+  top: 25%;
+}
+
+
+.aboutme {
+  font-family: Nokky07;
+  position: relative;
+  z-index: 1;
+  background-color: white;
+}
+
+
+
+.radial-gradient {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+
+  /*Fallback if gradeints don't work */
+  background: #000000;
+  /*Linear gradient... */
+  background:
+    radial-gradient(at center, #84d36f 0%, #0000 0%);
+  z-index: 0;
+}
+
+.a-developer-heading {
+  margin-top: 20px;
+  display: block;
+  /* Adjust this value to position it vertically as per your requirement */
+}
+
+.n {
+  opacity: 0;
+  animation: drop 0.4s linear forwards;
+  color: #000000;
+  margin-top: 480px;
+  font-family: Nokky07;
+}
+
+.o {
+  opacity: 0;
+  animation: drop 0.4s linear forwards 0.2s;
+  color: #000000;
+  margin-top: 480px;
+  font-family: Nokky07;
+}
+
+.k {
+  opacity: 0;
+  animation: drop 0.4s linear forwards 0.4s;
+  color: #000000;
+  margin-top: 480px;
+  font-family: Nokky07;
+}
+
+.k2 {
+  opacity: 0;
+  animation: drop 0.4s linear forwards 0.6s;
+  color: #000000;
+  margin-top: 480px;
+  font-family: Nokky07;
+}
+
+.y {
+  opacity: 0;
+  animation: drop 0.4s linear forwards 0.8s;
+  color: #000000;
+  margin-top: 480px;
+  font-family: Nokky07;
+}
+
+.zero {
+  opacity: 0;
+  animation: drop 0.4s linear forwards 1s;
+  color: #000000;
+  margin-top: 480px;
+  font-family: Nokky07;
+}
+
+
+@keyframes drop {
+  0% {
+    transform: translateY(-200px) scaleY(0.9);
+    opacity: 0;
+  }
+
+  5% {
+    opacity: 0.7;
+  }
+
+  50% {
+    transform: translateY(0px) scaleY(1);
+    opacity: 1;
+  }
+
+  65% {
+    transform: translateY(-17px) scaleY(0.9);
+    opacity: 1;
+  }
+
+  75% {
+    transform: translateY(-22px) scaleY(0.9);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(0px) scaleY(1);
+    opacity: 1;
+  }
+}
+
+.seven {
+  opacity: 0;
+  animation: drop 0.4s linear forwards 1.2s;
+  color: #050003;
+  margin-top: 480px;
+  font-family: Nokky07;
+}
+
+.smile {
+  opacity: 0;
+  animation: drop 0.4s linear forwards 3s;
+  color: #000000;
+  font-size: 90px;
+  margin-top: 480px;
+  font-family: Nokky07;
+}
+
+
+@keyframes background-pan {
+  from {
+    background-position: 0% center;
+  }
+
+  to {
+    background-position: -200% center;
+  }
+}
+
+@keyframes scale {
+
+  from,
+  to {
+    transform: scale(0);
+  }
+
+  50% {
+    transform: scale(1);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+
+.arrows {
+  width: 60px;
+  height: 72px;
+  position: absolute;
+  left: 50%;
+  margin-left: -30px;
+  bottom: 20px;
+  margin-bottom: -50px;
+}
+
+.nokky07-heading {
+  margin-top: 20px; /* Keep the margin-top value for the "Nokky07" element consistent with the "A Developer" element */
+  position: relative; /* Change the position to relative to avoid shaking */
+  z-index: 2;
+}
