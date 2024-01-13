@@ -21,7 +21,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-left: 200px;
+  margin-left: 250px;
   top: 50%;
   right: -50%;
 }
@@ -209,4 +209,8 @@ body {
   margin-top: 20px; /* Keep the margin-top value for the "Nokky07" element consistent with the "A Developer" element */
   position: relative; /* Change the position to relative to avoid shaking */
   z-index: 2;
+  margin-left: 50px;
 }
+
+
+
